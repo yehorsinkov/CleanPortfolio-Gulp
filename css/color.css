@@ -1,0 +1,136 @@
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+a {
+  color: #FF6347; }
+
+p {
+  color: #888; }
+
+.s_about li {
+  color: #FF6347; }
+
+.color_element {
+  color: #FF6347; }
+
+.color_bg {
+  background-color: #FF6347; }
+
+.color_border {
+  border-color: #FF6347; }
+
+.bg_white {
+  background-color: #FFF; }
+
+.bg_light {
+  background-color: #d4d4d4; }
+
+.bg_dark {
+  background-color: #222;
+  color: #fff; }
+  .bg_dark .s_descr::after {
+    background-color: #fff; }
+  .bg_dark a {
+    color: #fff; }
+
+.logo_container {
+  float: left; }
+
+svg {
+  height: 80px;
+  width: 80px;
+  z-index: 100;
+  position: relative; }
+  svg path {
+    fill: #222; }
+
+.toggle_mnu {
+  background-color: #222; }
+
+.top_mnu {
+  letter-spacing: 7px; }
+  .top_mnu a:hover {
+    color: #FF6347;
+    background-color: rgba(255, 255, 255, 0.07); }
+
+h1 {
+  color: #fff;
+  letter-spacing: 7px; }
+
+p {
+  color: #fff;
+  letter-spacing: 3px; }
+
+h2 {
+  letter-spacing: 6px; }
+
+.s_descr {
+  letter-spacing: 8px; }
+  .s_descr::after {
+    background-color: #222; }
+
+.section_content h2 {
+  color: #888;
+  letter-spacing: 4px; }
+.section_content h3 {
+  color: #888;
+  letter-spacing: 4px; }
+.section_content li,
+.section_content p {
+  color: #888;
+  letter-spacing: 2px; }
+
+.about_right a {
+  letter-spacing: 2px; }
+
+.s_about p:nth-child(even) {
+  color: #FF6347; }
+
+.s_standart .section_content .text_left, .s_standart .section_content .text_right {
+  color: #FF6347;
+  letter-spacing: 3px; }
+
+.s_portfolio li {
+  color: #888;
+  letter-spacing: 3px; }
+.s_portfolio li.active {
+  color: #fff;
+  border-bottom: 1px solid #FF6347; }
+.s_portfolio .popup_content {
+  color: #FF6347; }
+.s_portfolio .podrt_descr p,
+.s_portfolio .podrt_descr h3 {
+  color: #FF6347; }
+.s_portfolio .podrt_descr .button {
+  color: #FF6347; }
+
+.contact_box .contact_icon {
+  color: #FF6347; }
+.contact_box h3 {
+  color: #222; }
+.contact_box p,
+.contact_box a {
+  color: #888; }
+
+form input:focus,
+form textarea:focus {
+  border: 1px solid #FF6347; }
+form input,
+form textarea {
+  letter-spacing: 2px; }
+form button {
+  background-color: #FF6347;
+  letter-spacing: 2px; }
+form .form-group {
+  letter-spacing: 2px;
+  color: #888; }
+
+.main_footer {
+  letter-spacing: 0px;
+  color: #FF6347; }
+  .main_footer a {
+    color: #FF6347;
+    letter-spacing: 4px; }
+
+/*# sourceMappingURL=color.css.map */
