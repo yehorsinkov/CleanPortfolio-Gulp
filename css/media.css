@@ -8,7 +8,7 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 		.s_about .section_content .about_left	{
-		margin-top: 30px;	}
+		margin-top: 130px;	}
 
 
 .s_about .section_content .about_right
@@ -34,16 +34,24 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	.top_wraper .top_text h1{
-	font-size: 30px;
-	padding: 10px 30px;
+ h1{
+	font-size: 35px !important;
 	border: 2px solid #fff;
-	letter-spacing: 3px;	
+	padding: 15px 45px;	
+	letter-spacing: 5px;
  }
 
  .port_item_cont {
  	padding: 0; }
 	
+}
+@media only screen and (max-width : 400px) {
+
+
+h1{
+	padding: 15px 28px !important;
+}
+
 }
 
 /* Custom, iPhone Retina */
@@ -55,6 +63,12 @@
 .s_standart .section_content .right .right_box {
 	height: 170px;
 	
+}
+
+h1{
+	font-size: 23px;
+	letter-spacing: 6px;
+	padding: 15px 25px !important;
 }
 
 }
