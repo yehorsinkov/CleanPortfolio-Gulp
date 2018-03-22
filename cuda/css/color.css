@@ -1,0 +1,100 @@
+body .s_welcome {
+  background-color: #87509c; }
+
+body h1 {
+  letter-spacing: 1px;
+  color: #f7f3ea; }
+
+.top_text button {
+  background-color: #eb7d4b; }
+  .top_text button a {
+    color: #f7f3ea; }
+
+.s_sercive {
+  background-color: #17c2a4; }
+  .s_sercive h2 {
+    letter-spacing: 4px; }
+    .s_sercive h2::after {
+      background-color: #14a58c; }
+  .s_sercive h2, .s_sercive h6 {
+    color: #fff; }
+  .s_sercive .serv_bloc {
+    color: #fff; }
+
+.s_team {
+  background-color: #e7f1f8; }
+  .s_team h2 {
+    letter-spacing: 4px; }
+    .s_team h2::after {
+      background-color: #c8d9e5; }
+  .s_team h2, .s_team h6 {
+    color: #3c4761; }
+
+.s_skills {
+  background-color: #ffffff; }
+  .s_skills h2 {
+    letter-spacing: 4px; }
+    .s_skills h2::after {
+      background-color: #c8d9e5; }
+  .s_skills h2, .s_skills h6 {
+    color: #3c4761; }
+
+.s_portfolio {
+  background-color: #ffdd99; }
+  .s_portfolio h2 {
+    letter-spacing: 4px; }
+    .s_portfolio h2::after {
+      background-color: #e5c37f; }
+  .s_portfolio h2, .s_portfolio h6 {
+    color: #393939; }
+  .s_portfolio .filter_wrap ul li {
+    background-color: #ebc985;
+    color: #393939; }
+  .s_portfolio .filter_wrap ul li:hover {
+    background-color: #FFF; }
+
+.s_about {
+  background-color: #d74680; }
+  .s_about h2 {
+    letter-spacing: 4px; }
+    .s_about h2::after {
+      background-color: #b73c6d; }
+  .s_about h2, .s_about h6 {
+    color: #fff; }
+  .s_about h5 {
+    color: #fff;
+    letter-spacing: 1.3px; }
+  .s_about p {
+    color: #fff; }
+  .s_about span {
+    color: #fd9; }
+
+.s_getintouch {
+  color: #fff;
+  background-color: #3c5499; }
+  .s_getintouch h2 {
+    letter-spacing: 4px; }
+    .s_getintouch h2::after {
+      background-color: #273a71; }
+  .s_getintouch input, .s_getintouch textarea {
+    background-color: #273a71; }
+  .s_getintouch input::placeholder {
+    color: #fff; }
+  .s_getintouch textarea::placeholder {
+    color: #fff; }
+
+.team_bloc_wrap h3 {
+  color: #27283d; }
+
+.team_bloc_wrap span {
+  color: #30bae7; }
+
+.team_bloc_wrap p {
+  color: #3c4761; }
+
+footer {
+  background-color: #344b8e; }
+  footer a {
+    color: #fff; }
+  footer a:hover {
+    color: #30bae7; }
