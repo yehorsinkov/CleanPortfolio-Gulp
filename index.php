@@ -1,63 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8" />
-	<title>Егор Синьков</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.min.css" />
-	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="libs/linea/styles.css" />
-	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
-	<link rel="stylesheet" href="libs/animate/animate.min.css" />
-	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="css/color.css" />
-	<link rel="stylesheet" href="css/media.css" />
 
-</head>
-<body>
-	
-	<div class="loader">
-		<div class="loader_inner"></div>
-	</div>
-
-	<header class="main_head main_color_bg" data-parallax="scroll" data-image-src="img/bg.jpg" data-z-index="1">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="logo_container"></div>
-				<button class="toggle_mnu">
-					<span class="sandwich">
-						<span class="sw-topper"></span>
-						<span class="sw-bottom"></span>
-						<span class="sw-footer"></span>
-					</span>
-				</button>
-				<nav class="top_mnu">
-					<ul>
-						<li><a href="#about">Обо мне</a></li>
-						<li><a href="#standart">Стандарты</a></li>
-						<li><a href="#portfolio">Портфолио</a></li>
-						<li><a href="#contact">Контакты</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	</div>
-	<div class="top_wrapper">
-		<div class="top_descr">
-			<div class="top_centered">
-				<div class="top_text">
-					<h1>Егор Синьков</h1>
-					<p>Front-End разработчик</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</header>
-
-
+<?php get_header (); ?>
 <section id="about" class="s_about bg_white" >
 		<div class="section_header">
 			<h2>Обо мне</h2>
@@ -65,15 +7,13 @@
 				<div class="s_descr">Познакомимся ближе</div>
 			</div>
 		</div>
-	
 		<div class="section_content">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4 about_center col-md-push-4">
 						<h3>Фото</h3>
 						<div class="person">
-							<p><a href="page2.html">Ссылка на вторую страницу</a></p>
-							<a href="img/my_photo.jpg" class="popup"><img src="img/my_photo.jpg" alt="Alt" ></a>
+							<a href="<?php echo get_template_directory_uri(); ?>/img/my_photo.jpg" class="popup"><img src="<?php echo get_template_directory_uri(); ?>/img/my_photo.jpg" alt="Alt" ></a>
 						</div>
 					</div>
 					<div class="col-md-4 about_left col-md-pull-4">
@@ -86,7 +26,7 @@
 						<h3>Персональная информация</h3>
 						<h2> Егор Синьков</h2>
 						<ul>
-							<li>Профессиональное создание сайтов: HTML верстка, посадка на CMS WordPress</li>
+							<li>Профессиональное создание сайтов: разработка дизайна, HTML верстка, посадка на CMS WordPress</li>
 							<li>День рожденья: 7 октября 1994 года</li>
 							<li>Номер телефона: <a href="tel:+3 8 093 700 38 75">+380937003875</a></li>
 							<li>E-mail: <a href="mailto:egorkatornado@gmail.com">egorkatornado@gmail.com</a></li>
@@ -166,6 +106,7 @@
 			</div>
 		</div>	
 	</section>
+
 <!-- PORTFOLIO -->
 	<section id="portfolio" class="s_portfolio bg_dark" >
 		<div class="section_header">
@@ -187,7 +128,7 @@
 					<div id="portfolio_grid">
 						<!-- ======================= Item 1 =================== -->
 						<div class="mix col-md-4 col-sm-6 col-xs-12  portfolio_item category-1">
-							<img src="img/portfolio-images/1.jpg" alt="Alt">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/portfolio-images/1.jpg" alt="Alt">
 							<div class="port_item_cont">
 								<h3>Cuda</h3>
 								<p>Landing Page Cuda Описание</p>
@@ -197,16 +138,16 @@
 								<div class="podrt_descr" id="work_1">
 									<div class="modal-box-content">
 										<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
-										<h3><a href="cuda.html" target="_blank">Cuda</a></h3>
+										<h3><a href="<?php echo get_template_directory_uri(); ?>/cuda.php" target="_blank">Cuda</a></h3>
 										<p>Landing Page Cuda Описание</p>
-										<img src="img/portfolio-images/1.jpg" alt="Alt" />
+										<img src="<?php echo get_template_directory_uri(); ?>/img/portfolio-images/1.jpg" alt="Alt" />
 									</div>
 								</div>
 							</div>	
 						</div>
  						<!-- ======================= Item 2 =================== -->
 						<div class="mix col-md-4 col-sm-6 col-xs-12   portfolio_item category-1">
-							<img src="img/portfolio-images/2.jpg" alt="Alt">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/portfolio-images/2.jpg" alt="Alt">
 							<div class="port_item_cont">
 								<h3>Работа</h3>
 								<p>Описание работы</p>
@@ -218,14 +159,14 @@
 										<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
 										<h3><a href="#" target="_blank">Заголовок работы</a></h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
-										<img src="img/portfolio-images/2.jpg" alt="Alt" />
+										<img src="<?php echo get_template_directory_uri(); ?>/img/portfolio-images/2.jpg" alt="Alt" />
 									</div>
 								</div>
 							</div>	
 						</div>
 						<!-- ======================= Item 3 =================== -->
 						<div class="mix col-md-4 col-sm-6 col-xs-12   portfolio_item category-2">
-							<img src="img/portfolio-images/3.jpg" alt="Alt">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/portfolio-images/3.jpg" alt="Alt">
 							<div class="port_item_cont">
 								<h3>Работа</h3>
 								<p>Описание работы</p>
@@ -237,14 +178,14 @@
 										<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
 										<h3><a href="" target="_blank">Заголовок работа</a></h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
-										<img src="img/portfolio-images/3.jpg" alt="Alt" />
+										<img src="<?php echo get_template_directory_uri(); ?>/img/portfolio-images/3.jpg" alt="Alt" />
 									</div>
 								</div>
 							</div>	
 						</div>
 						<!-- ======================= Item 4 =================== -->
 						<div class="mix col-md-4 col-sm-6 col-xs-12   portfolio_item category-1">
-							<img src="img/portfolio-images/4.jpg" alt="Alt">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/portfolio-images/4.jpg" alt="Alt">
 							<div class="port_item_cont">
 								<h3>Работа</h3>
 								<p>Описание работы</p>
@@ -256,14 +197,14 @@
 										<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
 										<h3><a href="">Заголовок работы</a></h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
-										<img src="img/portfolio-images/4.jpg" alt="Alt" />
+										<img src="<?php echo get_template_directory_uri(); ?>/img/portfolio-images/4.jpg" alt="Alt" />
 									</div>
 								</div>
 							</div>	
 						</div>
 						<!-- ======================= Item 5 =================== -->
 						<div class="mix col-md-4 col-sm-6 col-xs-12   portfolio_item category-2">
-							<img src="img/portfolio-images/5.jpg" alt="Alt">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/portfolio-images/5.jpg" alt="Alt">
 							<div class="port_item_cont">
 								<h3>Работа</h3>
 								<p>Описание работы</p>
@@ -275,14 +216,14 @@
 										<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
 										<h3><a href="">	Заголовок работы</a></h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
-										<img src="img/portfolio-images/5.jpg" alt="Alt" />
+										<img src="<?php echo get_template_directory_uri(); ?>/img/portfolio-images/5.jpg" alt="Alt" />
 									</div>
 								</div>
 							</div>	
 						</div>
 						<!-- ======================= Item 6 =================== -->
 						<div class="mix col-md-4 col-sm-6 col-xs-12   portfolio_item category-1">
-							<img src="img/portfolio-images/6.jpg" alt="Alt">
+							<img src="<?php echo get_template_directory_uri(); ?>/img/portfolio-images/6.jpg" alt="Alt">
 							<div class="port_item_cont">
 								<h3>Работа</h3>
 								<p>Описание работы</p>
@@ -294,7 +235,7 @@
 										<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
 										<h3><a href="">	Заголовок работы</a></h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
-										<img src="img/portfolio-images/6.jpg" alt="Alt" />
+										<img src="<?php echo get_template_directory_uri(); ?>/img/portfolio-images/6.jpg" alt="Alt" />
 									</div>
 								</div>
 							</div>	
@@ -304,6 +245,8 @@
 			</div>
 		</div>			
 	</section>
+
+	
 <!-- CONTACT -->
 	<section id="contact" class="s_contact bg_light" >
 		<div class="section_header">
@@ -325,7 +268,7 @@
 						<div class="contact_box">
 							<span class="contact_icon icon-basic-webpage-img-txt"></span>
 							<h3>Вебсайт</h3>
-							<p><a href="sinkovdevelop.com" target="_blank">sinkovdevelop.com</a></p>
+							<p><a href="esinkov.com" target="_blank">esinkov.com</a></p>
 						</div>
 						<div class="contact_box">
 							<span class="contact_icon icon-basic-geolocalize-01"></span>
@@ -357,42 +300,4 @@
 			</div>
 		</div>		
 	</section>
-
-<footer class="main_footer bg_dark">
-		<div class="container">
-			<div >
-				&copy; 2018 Егор Синьков
-				<div class="social">
-					<ul>
-						<li><a href="tg://>" target="_blank"><i class="fa fa-paper-plane"></i></a></li>
-						<li><a href="https://www.facebook.com/profile.php?id=100004614883523" target="_blank"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="https://twitter.com/ESinkov" target="_blank"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="skype:tornado.ukr" target="_blank"><i class="fa fa-skype"></i></a></li>
-						<li><a href="https://github.com/yehorsinkov" target="_blank"><i class="fa fa-github"></i></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</footer>
-
-<div class="hidden"></div>
-	<!--[if lt IE 9]>
-	<script src="libs/html5shiv/es5-shim.min.js"></script>
-	<script src="libs/html5shiv/html5shiv.min.js"></script>
-	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
-	<script src="libs/respond/respond.min.js"></script>
-	<![endif]-->
-	
-	<script src="libs/jquery/jquery-2.1.3.min.js"></script>
-	<script src="libs/parallax/parallax.min.js"></script>
-	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
-	<script src="libs/mixitup/mixitup.min.js"></script>
-	<script src="libs/scroll2id/PageScroll2id.min.js"></script>
-	<script src="libs/waypoints/waypoints.min.js"></script>
-	<script src="libs/animate/animate-css.js"></script>
-	<script src="libs/jqBootstrapValidation/jqBootstrapValidation.js"></script>
-	<script type="text/javascript"  src="js/common.js"></script>
-
-
-</body>
-</html>
+<?php get_footer(); ?>
